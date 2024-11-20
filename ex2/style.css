@@ -1,0 +1,45 @@
+
+.item {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color:darkgreen;
+  display:flex;
+  flex-flow: row;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  width: 880px;
+  border: 2px solid #ccc;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table-header {
+  background-color: #117a37; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.table-cell {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f8fcf2; 
+  border: 1px solid #ccc;
+}
